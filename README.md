@@ -1,6 +1,6 @@
 # Web Charge - Person Phones
 
-![](https://github.com/Henrickqt/Stefanini/blob/master/assets/screen.png)
+![](https://github.com/Henrickqt/Stefanini/blob/main/assets/screen.png)
 
 This project is a CRUD related to a contact list.
 
