@@ -1,0 +1,40 @@
+.header {
+  height: 64px !important;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.initials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 24px;
+  border-radius: 50%;
+  background: #F5F5F5;
+  font-weight: 500;
+}
+
+.labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.person-phones {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.add-person-phone {
+  padding-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}

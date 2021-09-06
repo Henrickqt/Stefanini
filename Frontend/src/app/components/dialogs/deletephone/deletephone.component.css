@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding: 0 24px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding-bottom: 16px;
+}

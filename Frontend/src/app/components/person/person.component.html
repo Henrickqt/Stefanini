@@ -1,0 +1,19 @@
+<mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+  <mat-expansion-panel-header class="header">
+    <mat-panel-title class="title">
+      <span class="initials">{{ initials }}</span>
+      {{ person.name }}
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+  <div class="labels">
+    <p>PHONE NUMBER</p>
+    <p>TYPE</p>
+    <p>ACTIONS</p>
+  </div>
+  <div class="person-phones">
+    <app-personphone *ngFor="let personPhone of personPhones" [personPhone]="personPhone"></app-personphone>
+  </div>
+  <div class="add-person-phone">
+    <button mat-raised-button color="primary" (click)="create()">ADD PHONE NUMBER</button>
+  </div>
+</mat-expansion-panel>

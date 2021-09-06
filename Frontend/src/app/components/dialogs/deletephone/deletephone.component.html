@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>Delete phone number?</h1>
+<mat-dialog-content class="content">
+  <p>Are you sure you want to delete this phone number? This operation cannot be undone.</p>
+</mat-dialog-content>
+<mat-dialog-actions class="actions">
+  <button mat-button (click)="cancel()">CANCEL</button>
+  <button mat-raised-button color="warn" (click)="confirm()">CONFIRM</button>
+</mat-dialog-actions>

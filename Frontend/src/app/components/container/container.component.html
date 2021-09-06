@@ -1,0 +1,8 @@
+<mat-card class="container mat-elevation-z3">
+  <mat-card-title class="title mat-elevation-z1">MY CONTACTS</mat-card-title>
+  <mat-card-content>
+    <mat-accordion>
+      <app-person *ngFor="let person of persons" [person]="person"></app-person>
+    </mat-accordion>
+  </mat-card-content>
+</mat-card>
