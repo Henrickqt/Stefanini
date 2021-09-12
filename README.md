@@ -1,6 +1,6 @@
 # Web Charge - Person Phones
 
-![](https://github.com/Henrickqt/Stefanini/blob/main/assets/screen.png)
+![](https://github.com/Henrickqt/Web-Charge-Person-Phones/blob/main/assets/screen.png)
 
 This project is a CRUD related to a contact list.
 
@@ -17,8 +17,8 @@ This project was developed using the following technologies:
 Clone the project and access its folder.
 
 ```bash
-$ git clone https://github.com/henrickqt/Stefanini
-$cd Stefanini
+$ git clone https://github.com/Henrickqt/Web-Charge-Person-Phones.git
+$ cd Web-Charge-Person-Phones
 ```
 
 ### Backend
